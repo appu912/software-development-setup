@@ -1,8 +1,8 @@
-Installing GIT
+\# Installing Git Bash for Windows
 
 
 
-A version control system.
+\## A version control system.
 
 
 
@@ -77,10 +77,4 @@ Start-Service ssh-agent
 10\. After this we can check the authenticity of the GitHub host using the following command: ssh -T git@github.com
 
 11\. If the host is not verified, press yes if the generated fingerprint is present in the list present in the following url: https://docs.github.com/en/enterprise-cloud@latest/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints
-
-
-
-
-
-
 
