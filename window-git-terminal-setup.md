@@ -1,38 +1,32 @@
-\# Installing Git Bash for Windows
+# Installing Git Bash for Windows
 
+## A version control system.
 
+1. Download Git Bash for Windows from [here](https://git-scm.com/install/windows).
 
-\## A version control system.
+2. Download Windows Terminal from Microsoft store.
 
+3. Run the Git exe installer.
 
+4. Set the location where you want to install Git.
 
-1\. Download Git bash for windows from here. https://git-scm.com/install/windows
+5. Tick the option "Add Git Bash Profile to windows terminal". This will enable you to open Git Bash Terminal in Windows Terminal.
 
-2\. Download Windows Terminal from Microsoft store.
+6. Tick the "Bundled OpenSSH" provided by Git. This will provide OpenSSH with no dependency on windows configuration.
 
-3\. Run the Git exe installer.
+7. Tick the "Use OpenSSL Library" which will match Linux/macOS Git behaviour.
 
-4\. Set the location where you want to install Git.
+8. Tick the "Checkout Windows-style, commit Unix-style" option. This will checkout with CRLF (\\r\\n like Windows editor) and commit with LF (\\n like Linux editor).
 
-5\. Tick the option "Add Git Bash Profile to windows terminal". This will enable you to open Git Bash Terminal in Windows Terminal.
+9. Choose MinTTY as your terminal editor.
 
-6\. Tick the "Bundled OpenSSH" provided by Git. This will provide OpenSSH with no dependency on windows configuration.
+10. Choose the "Fast Forward and merge" option for git pull behaviour. This will enable the following operations:
+    - Fast Forward: If no local commits are there.
+    - Merge: If both local and remote branch have commits.
 
-7\. Tick the "Use OpenSSL Library" which will match Linux/macOS Git behaviour.
+11. Use the Git Credential Manager since it will store the credentials in Windows Credential Manager.
 
-8\. Tick the "Checkout Windows-style, commit Unix-style" option. This will checkout with CRLF (\\r\\n like Windows editor) and commit with LF (\\n like Linux editor).
-
-9\. Choose MinTTY as your terminal editor.
-
-10\. Choose the "Fast Forward and merge" option for git pull behaviour. This will enable the following operations:
-
-\- Fast Forward: If no local commits are there.
-
-\- Merge: If both local and remote branch have commits.
-
-11\. Use the Git Credential Manager since it will store the credentials in Windows Credential Manager.
-
-12\. Also enable File Caching to save file status. This will optimize file scanning commands like git status.
+12. Also enable File Caching to save file status. This will optimize file scanning commands like git status.
 
 
 
