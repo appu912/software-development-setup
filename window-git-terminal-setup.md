@@ -9,7 +9,7 @@
 5. :white_check_mark: the option **Add Git Bash Profile to Windows Terminal**. This will enable you to open Git Bash Terminal in Windows Terminal.
 6. :white_check_mark: the **Bundled OpenSSH** provided by Git. This will provide OpenSSH with no dependency on windows configuration.
 7. :white_check_mark: the **Use OpenSSL Library** which will match Linux/macOS Git behaviour.
-8. :white_check_mark: the **Checkout Windows-style, commit Unix-style** option. This will checkout with CRLF (`\\r\\n` like Windows editor) and commit with LF (`\\n` like Linux editor).
+8. :white_check_mark: the **Checkout Windows-style, commit Unix-style** option. This will checkout with CRLF (`\r\\n` like Windows editor) and commit with LF (`\n` like Linux editor).
 9. Choose MinTTY as your terminal editor.
 10. Choose the **Fast Forward and merge** option for `git pull` behaviour. This will enable the following operations:
     * **Fast Forward**: If no local commits are there.
@@ -23,8 +23,8 @@
 1. Open Windows terminal and create a new profile.
 2. Provide a name to your profile.
 3. For the Command Line field, enter the path to your bash.exe file. The default installation path is `C:\\Program Files\\Git\\bin\\bash.exe`.
-4. For the icon field, enter the path for your Git Bash icon. You can use `C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico`.
-5. Update your starting directory to `%USER\_PROFILE%`.
+4. For the icon field, enter the path for your Git Bash icon. You can use `C:\Program Files\Git\mingw64\share\git\git-for-windows.ico`.
+5. Update your starting directory to `%USER_PROFILE%`.
 
 
 # Basic setup
