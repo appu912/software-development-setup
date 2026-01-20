@@ -1,7 +1,7 @@
 # Java Development Toolkit Setup
 ### Version 25.0.1
 
-* JDK is the software development toolkit for developing java applications. It consist of Java runtime Environment (JRE) and development tools like compiler (`javac`), debugger (`jdb`), packaging tool (`jar`) etc.*
+*JDK is the software development toolkit for developing java applications. It consist of Java runtime Environment (JRE) and development tools like compiler (`javac`), debugger (`jdb`), packaging tool (`jar`) etc.*
 
 1. Download open source JDK from [here](https://jdk.java.net/25/).
 2. After downloading the JDK zip file, verify its checksum i.e the file is not tampered.
