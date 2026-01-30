@@ -49,3 +49,4 @@ postgres@ubuntu:~$ psql
 ```console
 postgres=#
 ```
+8. You can use \\q to exit the interactive mode. And then you can logout of the postgres login shell using the `exit` command.
