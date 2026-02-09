@@ -44,6 +44,10 @@
     ssh-add ~/.ssh/id_ed25519
     ```
 7. Now we'll add ssh public key to the GitHub account. Follow this [url](https://docs.github.com/en/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+    
+    ```bash
+    pbcopy < ~/.ssh/id_ed25519.pub
+    ```
 8. After this we can check the authenticity of the GitHub host using the following command.
     
     ```bash

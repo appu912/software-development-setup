@@ -2,6 +2,6 @@
 
 ## Setup sequence
 
-1. Git
-2. xclip
+1. Xclip
+2. Git
 3. Intellij Dracula Theme  
