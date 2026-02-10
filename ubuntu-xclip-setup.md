@@ -22,7 +22,8 @@
     alias pbcopy='xclip -selection clipboard'
     alias pbpaste='xclip -selection clipboard -o'
     ```
-3. Now we can use pbcopy and pbpaste for copying and pasting stuff to clipboard.
+3. After this, reload your shell.
+4. Now we can use pbcopy and pbpaste for copying and pasting stuff to clipboard.
     
     ```bash
     pbcopy < file1.txt
