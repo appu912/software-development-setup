@@ -7,4 +7,5 @@
 3. [Docker setup for Ubuntu](ubuntu-docker-setup.md)
 4. [Node.js setup for Ubuntu](ubuntu-node-setup.md)
 5. [JDK setup for Ubuntu](ubuntu-jdk-setup.md)
-6. [Intellij Dracula Theme for Gnome Terminal](#)  
+6. [Gradle setup for Ubuntu](ubuntu-gradle-setup.md)
+7. [Intellij Dracula Theme for Gnome Terminal](#)  
