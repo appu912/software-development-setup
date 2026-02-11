@@ -7,11 +7,17 @@
 ### Installing Node Version Manager (`nvm`)
 
 1. For managing different node version, we'll use Node Version Manager for installing `node.js`.
-2. Node Version Manager was created for Linux/MacOS but we can use [this](https://github.com/coreybutler/nvm-windows/releases) to install it on windows environment.
-3. Due to this `nvm` command will be accessible from powershell and not Git Bash because it does not have `sh` script.
-4. Download the latest `nvm-setup.exe` from Assets in the above url.
-5. Run the installer and provide the `nvm` installation directory and `node.js` installation directory.
-6. After finishing the setup wizard, you have `nvm` on your windows system.
+2. Use the below command to install `nvm`.
+    
+    ```powershell
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+    ```
+3. Verify the installation.
+   
+    ```powershell
+    nvm --version
+    ```
+4. After finishing the setup wizard, you have `nvm` on your ubuntu system.
 
 ### Installing Node.js and `npm`
 
